@@ -3,19 +3,39 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		01814716B28A38AD69E66766 /* Pods_MTIExerciseSwift4.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D35D9D97CA89D471D8C2723D /* Pods_MTIExerciseSwift4.framework */; };
+		067CDF5F236BFF58009B7748 /* LaptopDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 067CDF5E236BFF58009B7748 /* LaptopDetailViewController.swift */; };
+		067CDF62236C0310009B7748 /* LaptopDetailPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 067CDF61236C0310009B7748 /* LaptopDetailPresenter.swift */; };
+		067CDF64236C0694009B7748 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 067CDF63236C0694009B7748 /* Constants.swift */; };
 		06D3B5D2236BC12C007D59D3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06D3B5D1236BC12C007D59D3 /* AppDelegate.swift */; };
 		06D3B5D4236BC12C007D59D3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06D3B5D3236BC12C007D59D3 /* SceneDelegate.swift */; };
 		06D3B5D6236BC12C007D59D3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06D3B5D5236BC12C007D59D3 /* ViewController.swift */; };
 		06D3B5D9236BC12C007D59D3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 06D3B5D7236BC12C007D59D3 /* Main.storyboard */; };
 		06D3B5DB236BC12D007D59D3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 06D3B5DA236BC12D007D59D3 /* Assets.xcassets */; };
 		06D3B5DE236BC12D007D59D3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 06D3B5DC236BC12D007D59D3 /* LaunchScreen.storyboard */; };
+		06D3B5E7236BC322007D59D3 /* Configurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06D3B5E6236BC322007D59D3 /* Configurator.swift */; };
+		06D3B5EA236BC393007D59D3 /* MTIExerciseAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06D3B5E9236BC393007D59D3 /* MTIExerciseAPI.swift */; };
+		06D3B5EE236BC830007D59D3 /* BaseContract.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06D3B5ED236BC830007D59D3 /* BaseContract.swift */; };
+		06D3B5F0236BC85B007D59D3 /* BasePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06D3B5EF236BC85B007D59D3 /* BasePresenter.swift */; };
+		06D3B5F2236BC87A007D59D3 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06D3B5F1236BC87A007D59D3 /* BaseViewController.swift */; };
+		06D3B5F6236BC9E4007D59D3 /* UIView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06D3B5F5236BC9E4007D59D3 /* UIView+Extensions.swift */; };
+		06D3B5F8236BD134007D59D3 /* BaseNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06D3B5F7236BD134007D59D3 /* BaseNavigationController.swift */; };
+		06D3B5FC236BD1FE007D59D3 /* LaptopsRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06D3B5FB236BD1FE007D59D3 /* LaptopsRepository.swift */; };
+		06D3B5FF236BD4D2007D59D3 /* LaptopsList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06D3B5FE236BD4D2007D59D3 /* LaptopsList.swift */; };
+		06D3B601236BDABF007D59D3 /* LaptopsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06D3B600236BDABF007D59D3 /* LaptopsViewController.swift */; };
+		06D3B603236BDAE4007D59D3 /* LaptopsViewPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06D3B602236BDAE4007D59D3 /* LaptopsViewPresenter.swift */; };
+		06D3B605236BE01F007D59D3 /* LaptopCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06D3B604236BE01F007D59D3 /* LaptopCell.swift */; };
+		06D3B608236BE2A3007D59D3 /* LaptopCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 06D3B607236BE2A3007D59D3 /* LaptopCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		067CDF5E236BFF58009B7748 /* LaptopDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaptopDetailViewController.swift; sourceTree = "<group>"; };
+		067CDF61236C0310009B7748 /* LaptopDetailPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaptopDetailPresenter.swift; sourceTree = "<group>"; };
+		067CDF63236C0694009B7748 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		06D3B5CE236BC12C007D59D3 /* MTIExerciseSwift4.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MTIExerciseSwift4.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		06D3B5D1236BC12C007D59D3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		06D3B5D3236BC12C007D59D3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +44,22 @@
 		06D3B5DA236BC12D007D59D3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		06D3B5DD236BC12D007D59D3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		06D3B5DF236BC12D007D59D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		06D3B5E6236BC322007D59D3 /* Configurator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Configurator.swift; sourceTree = "<group>"; };
+		06D3B5E9236BC393007D59D3 /* MTIExerciseAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MTIExerciseAPI.swift; sourceTree = "<group>"; };
+		06D3B5ED236BC830007D59D3 /* BaseContract.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseContract.swift; sourceTree = "<group>"; };
+		06D3B5EF236BC85B007D59D3 /* BasePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasePresenter.swift; sourceTree = "<group>"; };
+		06D3B5F1236BC87A007D59D3 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		06D3B5F5236BC9E4007D59D3 /* UIView+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extensions.swift"; sourceTree = "<group>"; };
+		06D3B5F7236BD134007D59D3 /* BaseNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseNavigationController.swift; sourceTree = "<group>"; };
+		06D3B5FB236BD1FE007D59D3 /* LaptopsRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaptopsRepository.swift; sourceTree = "<group>"; };
+		06D3B5FE236BD4D2007D59D3 /* LaptopsList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaptopsList.swift; sourceTree = "<group>"; };
+		06D3B600236BDABF007D59D3 /* LaptopsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaptopsViewController.swift; sourceTree = "<group>"; };
+		06D3B602236BDAE4007D59D3 /* LaptopsViewPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaptopsViewPresenter.swift; sourceTree = "<group>"; };
+		06D3B604236BE01F007D59D3 /* LaptopCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaptopCell.swift; sourceTree = "<group>"; };
+		06D3B607236BE2A3007D59D3 /* LaptopCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LaptopCell.xib; sourceTree = "<group>"; };
+		6BBDEB2B2EA18FAAEC9020EF /* Pods-MTIExerciseSwift4.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MTIExerciseSwift4.release.xcconfig"; path = "Target Support Files/Pods-MTIExerciseSwift4/Pods-MTIExerciseSwift4.release.xcconfig"; sourceTree = "<group>"; };
+		D2CE1F7F7A664FDBFDFA9A73 /* Pods-MTIExerciseSwift4.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MTIExerciseSwift4.debug.xcconfig"; path = "Target Support Files/Pods-MTIExerciseSwift4/Pods-MTIExerciseSwift4.debug.xcconfig"; sourceTree = "<group>"; };
+		D35D9D97CA89D471D8C2723D /* Pods_MTIExerciseSwift4.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MTIExerciseSwift4.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +67,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				01814716B28A38AD69E66766 /* Pods_MTIExerciseSwift4.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		067CDF60236BFF68009B7748 /* LaptopDetail */ = {
+			isa = PBXGroup;
+			children = (
+				067CDF5E236BFF58009B7748 /* LaptopDetailViewController.swift */,
+				067CDF61236C0310009B7748 /* LaptopDetailPresenter.swift */,
+			);
+			path = LaptopDetail;
+			sourceTree = "<group>";
+		};
 		06D3B5C5236BC12C007D59D3 = {
 			isa = PBXGroup;
 			children = (
 				06D3B5D0236BC12C007D59D3 /* MTIExerciseSwift4 */,
 				06D3B5CF236BC12C007D59D3 /* Products */,
+				40F917D4A02059A13DB474CC /* Pods */,
+				860634F4A7D842430B6B5049 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,6 +104,11 @@
 		06D3B5D0236BC12C007D59D3 /* MTIExerciseSwift4 */ = {
 			isa = PBXGroup;
 			children = (
+				06D3B5FD236BD4C4007D59D3 /* Model */,
+				06D3B5F3236BC9C8007D59D3 /* Utils */,
+				06D3B5E8236BC388007D59D3 /* Infrastructure */,
+				06D3B5E5236BC304007D59D3 /* DependecyManager */,
+				06D3B5EB236BC7E7007D59D3 /* VIewControllers */,
 				06D3B5D1236BC12C007D59D3 /* AppDelegate.swift */,
 				06D3B5D3236BC12C007D59D3 /* SceneDelegate.swift */,
 				06D3B5D5236BC12C007D59D3 /* ViewController.swift */,
@@ -67,6 +120,113 @@
 			path = MTIExerciseSwift4;
 			sourceTree = "<group>";
 		};
+		06D3B5E5236BC304007D59D3 /* DependecyManager */ = {
+			isa = PBXGroup;
+			children = (
+				06D3B5E6236BC322007D59D3 /* Configurator.swift */,
+			);
+			path = DependecyManager;
+			sourceTree = "<group>";
+		};
+		06D3B5E8236BC388007D59D3 /* Infrastructure */ = {
+			isa = PBXGroup;
+			children = (
+				06D3B5FA236BD1F3007D59D3 /* Repositories */,
+				06D3B5E9236BC393007D59D3 /* MTIExerciseAPI.swift */,
+			);
+			path = Infrastructure;
+			sourceTree = "<group>";
+		};
+		06D3B5EB236BC7E7007D59D3 /* VIewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				067CDF60236BFF68009B7748 /* LaptopDetail */,
+				06D3B5F9236BD1E5007D59D3 /* Laptops */,
+				06D3B5EC236BC821007D59D3 /* Base */,
+			);
+			path = VIewControllers;
+			sourceTree = "<group>";
+		};
+		06D3B5EC236BC821007D59D3 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				06D3B5ED236BC830007D59D3 /* BaseContract.swift */,
+				06D3B5EF236BC85B007D59D3 /* BasePresenter.swift */,
+				06D3B5F1236BC87A007D59D3 /* BaseViewController.swift */,
+				06D3B5F7236BD134007D59D3 /* BaseNavigationController.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		06D3B5F3236BC9C8007D59D3 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				067CDF63236C0694009B7748 /* Constants.swift */,
+				06D3B5F4236BC9D6007D59D3 /* Extensions */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		06D3B5F4236BC9D6007D59D3 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				06D3B5F5236BC9E4007D59D3 /* UIView+Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		06D3B5F9236BD1E5007D59D3 /* Laptops */ = {
+			isa = PBXGroup;
+			children = (
+				06D3B606236BE26E007D59D3 /* Cells */,
+				06D3B600236BDABF007D59D3 /* LaptopsViewController.swift */,
+				06D3B602236BDAE4007D59D3 /* LaptopsViewPresenter.swift */,
+			);
+			path = Laptops;
+			sourceTree = "<group>";
+		};
+		06D3B5FA236BD1F3007D59D3 /* Repositories */ = {
+			isa = PBXGroup;
+			children = (
+				06D3B5FB236BD1FE007D59D3 /* LaptopsRepository.swift */,
+			);
+			path = Repositories;
+			sourceTree = "<group>";
+		};
+		06D3B5FD236BD4C4007D59D3 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				06D3B5FE236BD4D2007D59D3 /* LaptopsList.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		06D3B606236BE26E007D59D3 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				06D3B607236BE2A3007D59D3 /* LaptopCell.xib */,
+				06D3B604236BE01F007D59D3 /* LaptopCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		40F917D4A02059A13DB474CC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D2CE1F7F7A664FDBFDFA9A73 /* Pods-MTIExerciseSwift4.debug.xcconfig */,
+				6BBDEB2B2EA18FAAEC9020EF /* Pods-MTIExerciseSwift4.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		860634F4A7D842430B6B5049 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35D9D97CA89D471D8C2723D /* Pods_MTIExerciseSwift4.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -74,9 +234,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 06D3B5E2236BC12D007D59D3 /* Build configuration list for PBXNativeTarget "MTIExerciseSwift4" */;
 			buildPhases = (
+				297261A5B01FC3F6CA05F202 /* [CP] Check Pods Manifest.lock */,
 				06D3B5CA236BC12C007D59D3 /* Sources */,
 				06D3B5CB236BC12C007D59D3 /* Frameworks */,
 				06D3B5CC236BC12C007D59D3 /* Resources */,
+				3D28AC3ED97CE5D2AB281E22 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -128,19 +290,77 @@
 				06D3B5DE236BC12D007D59D3 /* LaunchScreen.storyboard in Resources */,
 				06D3B5DB236BC12D007D59D3 /* Assets.xcassets in Resources */,
 				06D3B5D9236BC12C007D59D3 /* Main.storyboard in Resources */,
+				06D3B608236BE2A3007D59D3 /* LaptopCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		297261A5B01FC3F6CA05F202 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MTIExerciseSwift4-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3D28AC3ED97CE5D2AB281E22 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MTIExerciseSwift4/Pods-MTIExerciseSwift4-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MTIExerciseSwift4/Pods-MTIExerciseSwift4-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MTIExerciseSwift4/Pods-MTIExerciseSwift4-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		06D3B5CA236BC12C007D59D3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				06D3B5E7236BC322007D59D3 /* Configurator.swift in Sources */,
+				06D3B5FC236BD1FE007D59D3 /* LaptopsRepository.swift in Sources */,
+				06D3B5F0236BC85B007D59D3 /* BasePresenter.swift in Sources */,
+				06D3B605236BE01F007D59D3 /* LaptopCell.swift in Sources */,
+				06D3B5FF236BD4D2007D59D3 /* LaptopsList.swift in Sources */,
 				06D3B5D6236BC12C007D59D3 /* ViewController.swift in Sources */,
+				06D3B5F6236BC9E4007D59D3 /* UIView+Extensions.swift in Sources */,
+				06D3B5EE236BC830007D59D3 /* BaseContract.swift in Sources */,
+				067CDF62236C0310009B7748 /* LaptopDetailPresenter.swift in Sources */,
+				06D3B603236BDAE4007D59D3 /* LaptopsViewPresenter.swift in Sources */,
 				06D3B5D2236BC12C007D59D3 /* AppDelegate.swift in Sources */,
+				067CDF5F236BFF58009B7748 /* LaptopDetailViewController.swift in Sources */,
+				06D3B601236BDABF007D59D3 /* LaptopsViewController.swift in Sources */,
+				06D3B5F2236BC87A007D59D3 /* BaseViewController.swift in Sources */,
 				06D3B5D4236BC12C007D59D3 /* SceneDelegate.swift in Sources */,
+				06D3B5F8236BD134007D59D3 /* BaseNavigationController.swift in Sources */,
+				06D3B5EA236BC393007D59D3 /* MTIExerciseAPI.swift in Sources */,
+				067CDF64236C0694009B7748 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,6 +502,7 @@
 		};
 		06D3B5E3236BC12D007D59D3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D2CE1F7F7A664FDBFDFA9A73 /* Pods-MTIExerciseSwift4.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -299,6 +520,7 @@
 		};
 		06D3B5E4236BC12D007D59D3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6BBDEB2B2EA18FAAEC9020EF /* Pods-MTIExerciseSwift4.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

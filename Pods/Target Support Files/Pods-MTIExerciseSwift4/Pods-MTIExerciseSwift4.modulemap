@@ -1,0 +1,6 @@
+framework module Pods_MTIExerciseSwift4 {
+  umbrella header "Pods-MTIExerciseSwift4-umbrella.h"
+
+  export *
+  module * { export * }
+}
