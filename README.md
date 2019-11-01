@@ -1,2 +1,2 @@
 # Swift4ExampleApp
-Swift4 Version of the SwiftUI Example App
+Swift4 version of the SwiftUI Example App
