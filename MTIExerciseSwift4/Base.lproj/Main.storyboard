@@ -120,10 +120,11 @@
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
+                            <constraint firstItem="P91-FF-jyz" firstAttribute="width" secondItem="MVJ-HU-VeE" secondAttribute="width" id="0GU-ka-8Zw"/>
                             <constraint firstItem="c54-6U-OlQ" firstAttribute="top" secondItem="MVJ-HU-VeE" secondAttribute="top" id="36d-Vo-3d8"/>
-                            <constraint firstAttribute="trailing" secondItem="c54-6U-OlQ" secondAttribute="trailing" id="etJ-kf-ZOH"/>
+                            <constraint firstItem="MVJ-HU-VeE" firstAttribute="trailing" secondItem="c54-6U-OlQ" secondAttribute="trailing" id="etJ-kf-ZOH"/>
                             <constraint firstAttribute="bottom" secondItem="c54-6U-OlQ" secondAttribute="bottom" id="fGU-Se-rQ0"/>
-                            <constraint firstItem="c54-6U-OlQ" firstAttribute="leading" secondItem="nEQ-uC-scF" secondAttribute="leading" id="piU-3H-a5r"/>
+                            <constraint firstItem="c54-6U-OlQ" firstAttribute="leading" secondItem="MVJ-HU-VeE" secondAttribute="leading" id="piU-3H-a5r"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="MVJ-HU-VeE"/>
                     </view>
